@@ -10,7 +10,7 @@ import Foundation
 
 /// For more information about the different HTTP Methods.
 /// https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
-enum HttpMethod: String {
+public enum HttpMethod: String {
     ///
     /// The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
     ///
