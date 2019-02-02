@@ -4,6 +4,4 @@
 
 osx_image: xcode10.1
 language: objective-c
-
-xcode_project: Amrap.xcodeproj 
-xcode_scheme: Amrap iOS Tests
+script: xcodebuild  -scheme 'Amrap iOS Tests' -sdk iphonesimulator test 
