@@ -1,9 +1,6 @@
 # Amrap
 
-[![CI Status](https://img.shields.io/travis/dgyesbreghs/amrap.svg?style=flat)](https://travis-ci.org/dgyesbreghs/amrap)
-[![Version](https://img.shields.io/cocoapods/v/Amrap.svg?style=flat)](https://cocoapods.org/pods/Amrap)
-[![License](https://img.shields.io/cocoapods/l/Amrap.svg?style=flat)](https://cocoapods.org/pods/Amrap)
-[![Platform](https://img.shields.io/cocoapods/p/Amrap.svg?style=flat)](https://cocoapods.org/pods/Amrap)
+[![Build Status](https://travis-ci.org/dgyesbreghs/amrap.svg?branch=master)](https://travis-ci.org/dgyesbreghs/amrap)
 
 ## Example
 
