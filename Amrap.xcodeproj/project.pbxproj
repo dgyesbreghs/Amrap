@@ -113,6 +113,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		485D8B952206415400740F1B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4884FB972205E9A9007192DE /* HTTPMethod.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		485D8B962206416200740F1B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4884FBD22205ECDE007192DE /* HTTPMethodTests.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		4884FB7E2205E83F007192DE = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +155,7 @@
 		4884FB962205E9A9007192DE /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4884FBB92205EBDD007192DE /* Amrap.h */,
-				4884FB972205E9A9007192DE /* HTTPMethod.swift */,
+				485D8B952206415400740F1B /* Enums */,
 				4884FB9C2205EA3A007192DE /* Supporting Files */,
 			);
 			path = Source;
@@ -149,6 +164,7 @@
 		4884FB9C2205EA3A007192DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4884FBB92205EBDD007192DE /* Amrap.h */,
 				4884FB9A2205EA37007192DE /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -157,7 +173,7 @@
 		4884FBCC2205EC3F007192DE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4884FBD22205ECDE007192DE /* HTTPMethodTests.swift */,
+				485D8B962206416200740F1B /* Enums */,
 				4884FBCD2205EC75007192DE /* Supporting Files */,
 			);
 			path = Tests;

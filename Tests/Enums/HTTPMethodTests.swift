@@ -20,7 +20,7 @@ class HttpMethodTests: QuickSpec {
             }
             
             it("head should be equal to HEAD") {
-                expect(HttpMethod.post.rawValue).to(match("HEAD"))
+                expect(HttpMethod.head.rawValue).to(match("HEAD"))
             }
             
             it("post should be equal to POST") {
