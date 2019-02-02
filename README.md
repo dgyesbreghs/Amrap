@@ -1,6 +1,6 @@
 # Amrap
 
-[![Build Status](https://travis-ci.org/dgyesbreghs/amrap.svg?branch=master)](https://travis-ci.org/dgyesbreghs/amrap)
+[![Build Status](https://travis-ci.com/dgyesbreghs/amrap.svg?token=Awn64Wp4dYi1Vs9ay3yh&branch=master)](https://travis-ci.org/dgyesbreghs/amrap)
 
 ## Example
 
