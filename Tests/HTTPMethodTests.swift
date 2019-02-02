@@ -5,22 +5,28 @@
 //  Created by Dylan Gyesbreghs on 02/02/2019.
 //
 
-import XCTest
+import Nimble
+import Quick
 
 @testable import Amrap
 
-class HttpMethodTests: XCTestCase {
+class HttpMethodTests: QuickSpec {
 
-    func testGet() {
-        XCTAssertEqual(HttpMethod.get.rawValue, "GET")
-    }
-    
-    func testHead() {
-        XCTAssertEqual(HttpMethod.head.rawValue, "HEAD")
-    }
-    
-    func testPost() {
-        XCTAssertEqual(HttpMethod.post.rawValue, "POST")
+    override func spec() {
+        super.spec()
+        describe("HTTPMethod") {
+            it("get should be equal to GET") {
+                expect(HttpMethod.get.rawValue).to(match("GET"))
+            }
+            
+            it("head should be equal to HEAD") {
+                expect(HttpMethod.post.rawValue).to(match("HEAD"))
+            }
+            
+            it("post should be equal to POST") {
+                expect(HttpMethod.post.rawValue).to(match("POST"))
+            }
+        }
     }
 
 }
